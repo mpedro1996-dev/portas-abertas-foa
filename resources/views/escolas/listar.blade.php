@@ -12,7 +12,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header text-white"  style="background-color: #05351a;"><i class="fa fa-search"></i> Buscar Escolas</div>
+                    <div class="card-header text-white"  style="background-color: #56375e;"><i class="fa fa-search"></i> Buscar Escolas</div>
                     <div class="card-body">
                         <form method="GET" action="{{ route('listar_escola') }}">
                             <div class="form-group row">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="py-4">
                     <div class="card">
-                        <div class="card-header text-white"  style="background-color: #05351a;"><i class="fa fa-list"></i> Listagem de Escolas</div>
+                        <div class="card-header text-white"  style="background-color: #56375e;"><i class="fa fa-list"></i> Listagem de Escolas</div>
                         <div class="card-body">
                             @include('mensagens')
                             <table class="table table-striped table-bordered table-hover">

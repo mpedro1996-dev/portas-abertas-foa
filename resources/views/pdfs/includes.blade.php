@@ -15,7 +15,7 @@
             float: left;
         }
         .cl-green{
-            color:#05351a;
+            color:#56375e;
         }
         .centro{
             text-align: center;
@@ -39,7 +39,7 @@
             margin-right: 0;
         }
         thead{
-            background-color: #05351a;
+            background-color: #56375e;
             color:#fff;
         }
         tbody tr:nth-child(even){
