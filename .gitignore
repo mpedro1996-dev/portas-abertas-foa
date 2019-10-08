@@ -1,4 +1,3 @@
-[branch "release"]
 /node_modules
 /public/hot
 /public/storage
@@ -13,5 +12,3 @@ npm-debug.log
 yarn-error.log
 .phpunit.result.cache
 
-[branch "master"]
-.env
