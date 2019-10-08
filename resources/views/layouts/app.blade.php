@@ -29,7 +29,7 @@
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-expand-md navbar-dark navbar-laravel" style="background-color: #05351a;">
+    <nav class="navbar navbar-expand-md navbar-dark navbar-laravel" style="background-color: #56375e;">
         <div class="container-fluid">
             <a class="navbar-brand" href="{{ url('/') }}">
                 <img src="{{asset('img/mascote-topo.png')}}" alt="mascote" style="max-width: 80px;">

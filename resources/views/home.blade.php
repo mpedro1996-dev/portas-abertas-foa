@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="{{asset('img/mascote-home.png')}}" alt="Mascote Home">
+                <img src="{{asset('img/mascote-home.png')}}" class="mascote-sizing" alt="Mascote Home">
             </div>
             <div class="py-lg-5">
                 <div class="col-md-6">

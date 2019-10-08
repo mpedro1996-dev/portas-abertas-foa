@@ -12,7 +12,7 @@
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">
-                    <div class="card-header text-white"  style="background-color: #05351a;"><i class="fa fa-plus"></i> {{ __('Cadastrar Visitante') }}</div>
+                    <div class="card-header text-white"  style="background-color: #56375e;"><i class="fa fa-plus"></i> {{ __('Cadastrar Visitante') }}</div>
 
                     <div class="card-body">
                         <form method="POST" action="{{ route('cadastrar_visitante') }}">
@@ -114,7 +114,7 @@
                             </div>
                             <div class="form-group row mb-0">
                                 <div class="col-md-6 offset-md-4">
-                                    <button type="submit" class="btn btn-success">
+                                   <button type="submit" class="btn btn-success" style="background-color:#b87997; border-color:#b87997; color:#faf5bf;">
                                         <i class="fa fa-paper-plane"></i>
                                         {{ __('Registrar') }}
                                     </button>
