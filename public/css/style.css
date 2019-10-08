@@ -1,8 +1,5 @@
 body{
-    background: linear-gradient(to bottom, rgba(205,167,174,1) 0%,
-     rgba(141,90,126,1) 35%,
-      rgba(92,61,98,1) 67%,
-       rgba(10,0,36,1) 100%);
+    background-color:#56375e;
 }
 .nav-link{
     font-size: 20px;
