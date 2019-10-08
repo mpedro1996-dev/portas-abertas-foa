@@ -6,6 +6,8 @@ $username = $url["user"]??null;
 $password = $url["pass"]??null;
 $database = substr($url["path"],1)??null;
 
+
+
 return [
 
     /*
@@ -19,7 +21,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'pgsql_producao'),
+    'default' => env('DB_CONNECTION', 'pgsql'),
 
     /*
     |--------------------------------------------------------------------------
@@ -65,9 +67,9 @@ return [
             'driver' => 'pgsql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'portas-abertas'),
+            'username' => env('DB_USERNAME', 'homestead'),
+            'password' => env('DB_PASSWORD', 'secret'),
             'charset' => 'utf8',
             'prefix' => '',
             'prefix_indexes' => true,
@@ -75,6 +77,7 @@ return [
             'sslmode' => 'prefer',
         ],
 
+        
         'pgsql_producao' => [
             'driver' => 'pgsql',
             'host' => $host,
@@ -85,6 +88,7 @@ return [
             'prefix' => '',
             'schema' => 'public',
         ],
+        
 
         'sqlsrv' => [
             'driver' => 'sqlsrv',
