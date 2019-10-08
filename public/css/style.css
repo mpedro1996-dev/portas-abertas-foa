@@ -1,6 +1,9 @@
 body{
     background-color:#56375e;
 }
+.mascote-sizing{
+    width: 80vh;
+}
 .nav-link{
     font-size: 20px;
 }

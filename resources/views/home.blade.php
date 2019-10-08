@@ -8,7 +8,7 @@
             </div>
             <div class="py-lg-5">
                 <div class="col-md-6">
-                    <img src="{{asset('img/logo-portas-abertas-home.png')}}" alt="Portas Abertas">
+                    <img src="{{asset('img/logo-portas-abertas-home.png')}}" class="mascote-sizing" alt="Portas Abertas">
                     <div class="row">
                         <div class="col-md-4 ml-auto">
                             <div class="mt-lg-5">
