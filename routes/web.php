@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('home');
 });
 
-Auth::routes();
+Auth::routes(['register'=>false]);
 
 Route::middleware(['auth'])->group(function (){
     Route::get('/escolas/novo','EscolaController@novo')->name('novo_cadastro_escola');
