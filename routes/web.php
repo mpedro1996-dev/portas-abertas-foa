@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('home');
 });
 
-Auth::routes();
 
 Route::middleware(['auth'])->group(function (){
     Route::get('/escolas/novo','EscolaController@novo')->name('novo_cadastro_escola');
@@ -28,6 +27,7 @@ Route::middleware(['auth'])->group(function (){
     Route::post('/visitantes/salvar','VisitanteController@cadastrar')->name('cadastrar_visitante');
     Route::get('/visitantes/listar','VisitanteController@listar')->name('listar_visitante');
     Route::get('/visitantes/excluir/{id}','VisitanteController@excluir')->name('excluir_visitante');
+    Auth::routes();
 
     Route::get('/visitantes/exportar-pdf','PDFController@relatorioVisitantes')->name('exportar_pdf_visitante');
     Route::get('/escolas/exportar-pdf','PDFController@relatorioEscolas')->name('exportar_pdf_escola');
