@@ -14,11 +14,10 @@
         <table class="mg-topo mg-esquerda">
             <thead>
             <tr>
-                <th width="20%">Nome</th>
-                <th width="20%">E-mail</th>
-                <th width="20%">Telefone</th>
-                <th width="20%">Celular</th>
-                <th width="20%">Curso Desejado</th>
+                <th width="25%">Nome</th>
+                <th width="25%">E-mail</th>
+                <th width="25%">Telefone/Celular</th>
+                <th width="25%">Curso Desejado</th>
             </tr>
             </thead>
             <tbody>
@@ -26,8 +25,7 @@
                 <tr>
                     <td>{{$v->nome}}</td>
                     <td>{{$v->email}}</td>
-                    <td>{{$v->telefone}}</td>
-                    <td>{{$v->celular}}</td>
+                    <td>{{$v->telefone!=null?$v->telefone:"N/A"}} / {{$v->celular}}</td>
                     <td>{{$v->curso!=null?$v->curso->nome:'N/A'}}</td>
                 </tr>
             @endforeach
